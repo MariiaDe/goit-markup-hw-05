@@ -496,13 +496,17 @@ footer .link {
 }
 
 .e-mail-input {
-    background-color: #2E2F42;
+    background-color: transparent;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    
+    font-size: 12px;             
+    line-height: 2;              
+    letter-spacing: 0.04em;      
+    padding-left: 16px;          
+    color: #ffffff;   
 }
 
 .e-mail-input::placeholder {
@@ -510,7 +514,7 @@ footer .link {
     font-size: 12px;
     line-height: 200%;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     padding: 8px auto 8px 16px;
 }
 
@@ -530,6 +534,7 @@ footer .link {
     text-align: center;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -762,6 +767,7 @@ footer .link {
     background-color: #4D5AE5;
     margin-left: 119px;
     margin-bottom: 24px;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2,1);
 }
 
