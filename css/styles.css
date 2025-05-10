@@ -603,9 +603,17 @@ footer .link {
     border: none;
 }
 
+.close:hover .close-icons {
+    fill: #FFFFFF;
+}
+
 .close:focus {
     background-color: #404BBF;
     border: none;
+}
+
+.close:focus .close-icons {
+    fill: #ffffff;
 }
 
 .close-icons {
@@ -635,7 +643,7 @@ footer .link {
 .modal-form {
     display: flex;
     flex-direction: column;
-    margin-left: 24px;
+    
 }
 
 .modal-contacts {
@@ -673,6 +681,10 @@ footer .link {
 .modal-input:hover,
 .modal-input:focus {
     border: 1px solid #4D5AE5;
+}
+
+.modal-input:focus + .modal-svg {
+    fill: #4D5AE5;
 }
 
 .modal-svg {
@@ -780,10 +792,10 @@ footer .link {
 }
 
 
-.modal-input-agree:checked + .modal-label-agree .modal-svg-agree {
-    border: 1px solid #404BBF;
+.modal-input-agree:checked + .modal-label-agree .modal-span {
+    border: none;
     background-color: #404BBF;
-    fill: #ffffff;
+    fill: #F4F4FD;
   }
 
 .send {
